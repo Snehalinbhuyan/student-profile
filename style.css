@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, blue, purple);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* Image */
+img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+/* List Hover */
+ul li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/* Table */
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Link */
+a:hover {
+    color: red;
+}
+
+/* Dark Mode */
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.dark section {
+    background: #1e1e1e;
+}
