@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Student Profile</h1>
+        <h2 id="studentName">Snehalin Bhuyan</h2>
+        <button onclick="toggleMode()">🌙 Toggle Mode</button>
+    </header>
+
+    <!-- About Me -->
+    <section>
+        <h3>About Me</h3>
+        <p>
+            My name is Snehalin Bhuyan. I am a student of BCA.
+            My hobbies are coding, gaming and learning new technologies.
+        </p>
+    </section>
+
+    <!-- Subjects -->
+    <section>
+        <h3>Subjects</h3>
+        <ul id="subjectList">
+            <li>Java</li>
+            <li>Data Structure</li>
+            <li>Python</li>
+            <li>English</li>
+            <li>EVS</li>
+        </ul>
+    </section>
+
+    <!-- Goals -->
+    <section>
+        <h3>My Goals</h3>
+        <ol>
+            <li>Become a Software Developer</li>
+            <li>Build Real Projects</li>
+            <li>Get a Good Job</li>
+        </ol>
+    </section>
+
+    <!-- Image -->
+    <section>
+        <h3>Profile Image</h3>
+        <img src="myphoto.jpg" alt="My Profile Image">
+    </section>
+
+    <!-- Marks Table -->
+    <section>
+        <h3>Marks</h3>
+        <table id="marksTable">
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>DS</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>EVS</td>
+                <td>85</td>
+            </tr>
+        </table>
+
+        <button onclick="calculateAverage()">Calculate Average</button>
+        <p id="average"></p>
+    </section>
+
+    <!-- Favorite Website -->
+    <section>
+        <h3>Favorite Website</h3>
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+        <h3>Contact Me</h3>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Enter Name"><br><br>
+            <input type="text" id="class" placeholder="Enter Class"><br><br>
+            <textarea id="message" placeholder="Enter Message"></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
